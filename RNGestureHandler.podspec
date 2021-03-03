@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/software-mansion/react-native-gesture-handler", :tag => "#{s.version}" }
   s.source_files = "ios/**/*.{h,m}"
 
-  s.dependency "React-Core"
+  # s.dependency "React-Core"
+  s.dependency "React"
 
 end
